@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title> 🎲 Sorteador de Numero</title>
+</head>
+<body>
+    <header>
+    <div class="conteiner">
+        <img src="./assets/logo.png" alt="Logo-MW">
+        <h1> Sortear um número</h1>
+
+        <main>
+            <input placeholder="Entre" id="inicial">
+            <input placeholder="E" id="final">           
+        </main>
+        <div class="Result">
+            <p id="resultado" style="display: none;" class="value-result"> O número sorteado é: <span id="valor-final">valor</span></p>
+        </div>
+        
+        <button onclick="GenerateNumber()"> Sortear </button>
+    </div>
+     <footer> © 2026 <a href="https://www.linkedin.com/in/miguel-wileno/" target="_blank"
+   rel="noopener noreferrer">MiguelWileno</a>. Todos os direitos reservados. </footer>
+</header>
+<script src="/script.js"></script>
+</body>
+
+</html>
